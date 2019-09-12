@@ -1,0 +1,16 @@
+.e1{
+  height: 50px;
+  width: 50px;
+  border-radius: 100px;
+}
+.f1{
+  background-color: #3949ab;
+  margin-right: 10px;
+  border-radius: 60px;
+}
+.g1{
+  width: 280px;
+  margin-top: 8px;
+  background-color: #f06292;
+  color: white;
+}
