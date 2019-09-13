@@ -18,7 +18,7 @@ onSubmission =  async () => {
 const  username = this.state.Username
 const password = this.state.Password
 
-await axios.get(`http://localhost:8000/login/${username}/${password}`)
+await axios.get(`https://mytutor247.herokuapp.com/login/${username}/${password}`)
 .then((result) => this.setState({ LoginStatus: result.data }))
 .catch((err) => console.log(err))
 
@@ -32,7 +32,7 @@ if(this.state.LoginStatus === 'Login Successfull!' ){
   return <div>
   <div className='a1 container-fluid text-center  jumbotron'>
    <Slide bottom>
-     <h1>My tutor247 Admin</h1>
+     <h1 className='b9'>My Tutor247 Admin</h1>
         </Slide>
          </div>
   <div className='b2 text-center shadow'>
@@ -66,9 +66,9 @@ if(this.state.LoginStatus === 'Login Successfull!' ){
      <h1>My tutor247 Admin</h1>
         </Slide>
          </div>
-  <div className='b2 text-center shadow'>
+  <div className='b2 text-center shadow container'>
         <Slide bottom>
-           <h1 className='b1'> Authentication</h1>
+           <h1 className=''> Authentication</h1>
         </Slide>
 
     <div className = 'container b5'>

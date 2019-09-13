@@ -2,9 +2,14 @@
   height: 50px;
   width: 50px;
   border-radius: 100px;
+
+}
+.e2{
+  background-color: #e53935;
+  color: white;
 }
 .f1{
-  background-color: #3949ab;
+  background-color: #666ad1;
   margin-right: 10px;
   border-radius: 60px;
 }
@@ -13,4 +18,25 @@
   margin-top: 8px;
   background-color: #f06292;
   color: white;
+}
+.jumbotron{
+  border-radius: 0px;
+}
+.g2{
+  background-color: #fce4ec;
+  padding: 40px;
+  height: 400px;
+}
+.g3{
+ margin-top: 10px;
+}
+.k1{
+  width: 280px;
+  font-size: 25px;
+}
+.k2{
+  margin-right: 10px;
+  width: 200px;
+  background-color: yellow;
+  font-weight: bold;
 }

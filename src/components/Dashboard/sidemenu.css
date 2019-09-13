@@ -1,0 +1,24 @@
+.j1{
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 30px;
+}
+.j2{
+ border-radius: 50px;
+ width: 150px;
+ margin-top: 60px;
+ margin-left: 20px;
+
+}
+.j3{
+  width: 150px;
+  margin-left: 40px;
+  margin-bottom: 10px;
+  border-radius: 100px;
+  font-weight: bold;
+  color: black;
+  background-color: white;
+}
