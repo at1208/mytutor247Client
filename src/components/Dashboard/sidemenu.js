@@ -7,11 +7,7 @@ class Sidemenu extends React.Component {
 
     state = {
       sidebarOpen: true,
-      Profit: false,
-      Visitors: false,
-      Users: false,
-      Products: false,
-      Card: false
+
 
     };
 
@@ -21,7 +17,7 @@ class Sidemenu extends React.Component {
   }
 
   render() {
-console.log(this.state.Profit)
+
     return (
 
       <Sidebar
@@ -31,34 +27,34 @@ console.log(this.state.Profit)
           <hr />
 
         <Fade left>
-      <button className='btn  j3 shadow' onClick = {() => this.setState({ Profit: true })}>Profit</button>
+      <button className='btn  j3 shadow'  >Profit</button>
              </Fade>
       <br/>
       <Fade left>
-      <button className='btn  j3 shadow' onClick = {() => this.setState({ Visitors: true })}>Visitors</button>
+      <button className='btn  j3 shadow'  >Visitors</button>
                </Fade>
       <br/>
           <Fade left>
-      <button className='btn   j3 shadow'onClick = {() => this.setState({ Users: true })} >Users</button>
+      <button className='btn   j3 shadow'  >Users</button>
          </Fade>
       <br/>
               <Fade left>
-      <button className='btn   j3 shadow'  onClick = {() => this.setState({ Products: true })}>Products</button>
+      <button className='btn   j3 shadow'   >Products</button>
        </Fade>
       <br/>
         <Fade left>
-      <button className='btn   j3' onClick = {() => this.setState({ Card: true })} >Card</button>
+      <button className='btn   j3' >Card</button>
        </Fade>
           </div>
 
         }
-        shadow = 'true'
+        shadow = {true}
         open={this.state.sidebarOpen}
         onSetOpen={this.onSetSidebarOpen}
-        styles={{ sidebar: { background: "#64b5f6" } }} >
+        styles={{ sidebar: { background: "#d1c4e9" } }} >
 
         <button onClick={() => this.onSetSidebarOpen(true)} className='btn btn-info j2'>
-          Open Sidebar
+            Menu
         </button>
       </Sidebar>
     );

@@ -81,7 +81,7 @@ if(this.state.LoginStatus === 'Login Successfull!' ){
          <label  className='b6'>Password </label>
          <input type='Password'   value={this.state.Password} onChange = {e => this.setState({ Password: e.target.value })} placeholder='Enter Password'  className='text-center b7'/>
  <br />
-<button className =  'b8 btn btn-sm  btn-outline-info' onClick={this.onSubmission}>Submit</button>
+<button className =  'b8 btn btn-sm ' onClick={this.onSubmission}>Submit</button>
 </form>
     </div>
         </div>
