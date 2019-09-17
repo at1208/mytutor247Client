@@ -2,6 +2,7 @@ import React from "react";
 import Sidebar from "react-sidebar";
 import './sidemenu.css'
 import Fade from 'react-reveal/Fade';
+import { Link } from 'react-router-dom'
 
 class Sidemenu extends React.Component {
 
@@ -27,23 +28,23 @@ class Sidemenu extends React.Component {
           <hr />
 
         <Fade left>
-      <button className='btn  j3 shadow'  >Profit</button>
+    <Link to='/profits'>  <button className='btn  j3 shadow'  >Profit</button> </Link>
              </Fade>
       <br/>
       <Fade left>
-      <button className='btn  j3 shadow'  >Visitors</button>
+      <Link to='/visitors'>  <button className='btn  j3 shadow'  >Visitors</button> </Link>
                </Fade>
       <br/>
           <Fade left>
-      <button className='btn   j3 shadow'  >Users</button>
+      <Link to='/users'>  <button className='btn   j3 shadow'  >Users</button> </Link>
          </Fade>
       <br/>
               <Fade left>
-      <button className='btn   j3 shadow'   >Products</button>
+      <Link to='/products'>  <button className='btn   j3 shadow'   >Products</button> </Link>
        </Fade>
       <br/>
         <Fade left>
-      <button className='btn   j3' >Card</button>
+      <Link to='/card'>  <button className='btn   j3' >Card</button> </Link>
        </Fade>
           </div>
 
